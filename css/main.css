@@ -1,0 +1,190 @@
+/* CSS Document */
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #202e3a;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 18px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        /* Text styles */
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        /* Links */
+        a {
+            color: #6b879f;
+            text-decoration: none;
+        }
+        /* Button styles */
+        .button {
+            background-color: #FFA500;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* Grid styles */
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .grid-item {
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 10px;
+            background-color: #f0f0f0;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+        }
+    </style>
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Set a background color for the entire page */
+        }
+
+        /* Header styles */
+        header {
+            background-color: #202e3a; /* Blue */
+            color: #fff; /* White */
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        /* Main content styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff; /* White background for the content container */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+        }
+
+        /* Text styles */
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Links */
+        a {
+            color: #0074D9; /* Blue for links */
+            text-decoration: none;
+        }
+
+        /* Button styles */
+        .button {
+            background-color: #FFA500; /* Orange */
+            color: #fff; /* White */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Grid styles */
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .grid-item {
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+        }
+
+        /* Different background colors for each of the 12 grid items */
+        .grid-item:nth-child(1) {
+            background-color: #809ad3b1; /* Reddish-Orange */
+        }
+
+        .grid-item:nth-child(2) {
+            background-color: #aad1e9; /* Teal */
+        }
+
+        .grid-item:nth-child(3) {
+            background-color: #a0bfd0; /* Pink */
+        }
+
+        .grid-item:nth-child(4) {
+            background-color: #aad1e9; /* Green */
+        }
+
+        .grid-item:nth-child(5) {
+            background-color: #a0bfd0; /* Yellow */
+        }
+
+        .grid-item:nth-child(6) {
+            background-color: #809ad3b1; /* Purple */
+        }
+
+        .grid-item:nth-child(7) {
+            background-color: #a0bfd0; /* Maroon */
+        }
+
+        .grid-item:nth-child(8) {
+            background-color: #809ad3b1; /* Sky Blue */
+        }
+
+        .grid-item:nth-child(9) {
+            background-color: #aad1e9; /* Peach */
+        }
+
+        .grid-item:nth-child(10) {
+            background-color: #809ad3b1; /* Mint Green */
+        }
+
+        .grid-item:nth-child(11) {
+            background-color: #aad1e9; /* Brown */
+        }
+
+        .grid-item:nth-child(12) {
+            background-color: #a0bfd0; /* Slate Gray */
+        }
+    </style>
